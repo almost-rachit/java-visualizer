@@ -1,0 +1,1822 @@
+{
+  "compilation": {
+    "success": true,
+    "stages": [
+      {
+        "name": "Init",
+        "status": "OK",
+        "detail": "JavaCompiler obtained from ToolProvider"
+      },
+      {
+        "name": "Lexing/Parsing",
+        "status": "OK",
+        "detail": "Source parsed successfully"
+      },
+      {
+        "name": "Bytecode Generation",
+        "status": "OK",
+        "detail": "Main.class generated (1759 bytes)"
+      }
+    ],
+    "errors": [],
+    "classFilePath": "/tmp/jviz-workdir/84182726-575b-47d9-a0a7-27e82ba8a13d/Main.class"
+  },
+  "steps": [
+    {
+      "stepIndex": 0,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 17
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 17 — locals: [java.lang.String[] args = ref @36]"
+    },
+    {
+      "stepIndex": 1,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 3
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 3,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 3 — locals: [int n = 3]"
+    },
+    {
+      "stepIndex": 2,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 4
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 4 — locals: [int n = 3]"
+    },
+    {
+      "stepIndex": 3,
+      "callDepth": 3,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 3
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 3,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "2",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 2,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 3 — locals: [int n = 2]"
+    },
+    {
+      "stepIndex": 4,
+      "callDepth": 3,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 4
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "2",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 2,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 4 — locals: [int n = 2]"
+    },
+    {
+      "stepIndex": 5,
+      "callDepth": 4,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 3
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 3,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "1",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "2",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 2,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 3,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 3 — locals: [int n = 1]"
+    },
+    {
+      "stepIndex": 6,
+      "callDepth": 3,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 4
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "2",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 2,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 4 — locals: [int n = 2]"
+    },
+    {
+      "stepIndex": 7,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "factorial",
+        "lineNumber": 4
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "factorial",
+          "lineNumber": 4,
+          "thisRef": null,
+          "locals": {
+            "n": {
+              "name": "n",
+              "type": "int",
+              "value": "3",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.factorial() line 4 — locals: [int n = 3]"
+    },
+    {
+      "stepIndex": 8,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 17
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 17,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 17 — locals: [java.lang.String[] args = ref @36]"
+    },
+    {
+      "stepIndex": 9,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 20
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 20,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 20 — locals: [java.lang.String[] args = ref @36, int result = 6]"
+    },
+    {
+      "stepIndex": 10,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main$Point",
+        "methodName": "<init>",
+        "lineNumber": 9
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main$Point",
+          "methodName": "<init>",
+          "lineNumber": 9,
+          "thisRef": "@39",
+          "locals": {
+            "x": {
+              "name": "x",
+              "type": "int",
+              "value": "10",
+              "objectId": null
+            },
+            "y": {
+              "name": "y",
+              "type": "int",
+              "value": "20",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 20,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "0",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "0",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main$Point.<init>() line 9 — locals: [int x = 10, int y = 20]"
+    },
+    {
+      "stepIndex": 11,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main$Point",
+        "methodName": "<init>",
+        "lineNumber": 10
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main$Point",
+          "methodName": "<init>",
+          "lineNumber": 10,
+          "thisRef": "@39",
+          "locals": {
+            "x": {
+              "name": "x",
+              "type": "int",
+              "value": "10",
+              "objectId": null
+            },
+            "y": {
+              "name": "y",
+              "type": "int",
+              "value": "20",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 20,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "0",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "0",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main$Point.<init>() line 10 — locals: [int x = 10, int y = 20]"
+    },
+    {
+      "stepIndex": 12,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main$Point",
+        "methodName": "<init>",
+        "lineNumber": 11
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main$Point",
+          "methodName": "<init>",
+          "lineNumber": 11,
+          "thisRef": "@39",
+          "locals": {
+            "x": {
+              "name": "x",
+              "type": "int",
+              "value": "10",
+              "objectId": null
+            },
+            "y": {
+              "name": "y",
+              "type": "int",
+              "value": "20",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 20,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "0",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main$Point.<init>() line 11 — locals: [int x = 10, int y = 20]"
+    },
+    {
+      "stepIndex": 13,
+      "callDepth": 2,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main$Point",
+        "methodName": "<init>",
+        "lineNumber": 12
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main$Point",
+          "methodName": "<init>",
+          "lineNumber": 12,
+          "thisRef": "@39",
+          "locals": {
+            "x": {
+              "name": "x",
+              "type": "int",
+              "value": "10",
+              "objectId": null
+            },
+            "y": {
+              "name": "y",
+              "type": "int",
+              "value": "20",
+              "objectId": null
+            }
+          }
+        },
+        {
+          "frameIndex": 1,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 20,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main$Point.<init>() line 12 — locals: [int x = 10, int y = 20]"
+    },
+    {
+      "stepIndex": 14,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 20
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 20,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 20 — locals: [java.lang.String[] args = ref @36, int result = 6]"
+    },
+    {
+      "stepIndex": 15,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 23
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 23,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 23 — locals: [java.lang.String[] args = ref @36, int result = 6, Main$Point p = ref @39]"
+    },
+    {
+      "stepIndex": 16,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 24
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 24,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 24 — locals: [java.lang.String[] args = ref @36, int result = 6, Main$Point p = ref @39, String pooled = ref @41]"
+    },
+    {
+      "stepIndex": 17,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 27
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 27,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            },
+            "heapStr": {
+              "name": "heapStr",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "49"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "49",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Executing at Main.main() line 27 — locals: [java.lang.String[] args = ref @36, int result = 6, Main$Point p = ref @39, String pooled = ref @41, String heapStr = ref @49]"
+    },
+    {
+      "stepIndex": 18,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 29
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 29,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            },
+            "heapStr": {
+              "name": "heapStr",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "49"
+            },
+            "arr": {
+              "name": "arr",
+              "type": "int[]",
+              "value": "int[][3]",
+              "objectId": "50"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "49",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "50",
+            "className": "int[]",
+            "fields": {},
+            "arrayElements": [
+              "1",
+              "2",
+              "3"
+            ],
+            "arrayLength": 3,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Allocated int[] of size 3 on the Heap at @50 and stored its reference on the main stack frame."
+    },
+    {
+      "stepIndex": 19,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 30
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 30,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            },
+            "heapStr": {
+              "name": "heapStr",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "49"
+            },
+            "arr": {
+              "name": "arr",
+              "type": "int[]",
+              "value": "int[][3]",
+              "objectId": "50"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "49",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "50",
+            "className": "int[]",
+            "fields": {},
+            "arrayElements": [
+              "1",
+              "2",
+              "3"
+            ],
+            "arrayLength": 3,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Allocated int[] of size 3 on the Heap at @50 and stored its reference on the main stack frame."
+    },
+    {
+      "stepIndex": 20,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 31
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 31,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            },
+            "heapStr": {
+              "name": "heapStr",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "49"
+            },
+            "arr": {
+              "name": "arr",
+              "type": "int[]",
+              "value": "int[][3]",
+              "objectId": "50"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "49",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "50",
+            "className": "int[]",
+            "fields": {},
+            "arrayElements": [
+              "1",
+              "2",
+              "3"
+            ],
+            "arrayLength": 3,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Allocated int[] of size 3 on the Heap at @50 and stored its reference on the main stack frame."
+    },
+    {
+      "stepIndex": 21,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 32
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 32,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            },
+            "heapStr": {
+              "name": "heapStr",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "49"
+            },
+            "arr": {
+              "name": "arr",
+              "type": "int[]",
+              "value": "int[][3]",
+              "objectId": "50"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "49",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "50",
+            "className": "int[]",
+            "fields": {},
+            "arrayElements": [
+              "1",
+              "2",
+              "3"
+            ],
+            "arrayLength": 3,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Allocated int[] of size 3 on the Heap at @50 and stored its reference on the main stack frame."
+    },
+    {
+      "stepIndex": 22,
+      "callDepth": 1,
+      "eventType": "STEP",
+      "location": {
+        "className": "Main",
+        "methodName": "main",
+        "lineNumber": 33
+      },
+      "callStack": [
+        {
+          "frameIndex": 0,
+          "className": "Main",
+          "methodName": "main",
+          "lineNumber": 33,
+          "thisRef": null,
+          "locals": {
+            "args": {
+              "name": "args",
+              "type": "java.lang.String[]",
+              "value": "java.lang.String[][0]",
+              "objectId": "36"
+            },
+            "result": {
+              "name": "result",
+              "type": "int",
+              "value": "6",
+              "objectId": null
+            },
+            "p": {
+              "name": "p",
+              "type": "Main$Point",
+              "value": "Main$Point@39",
+              "objectId": "39"
+            },
+            "pooled": {
+              "name": "pooled",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "41"
+            },
+            "heapStr": {
+              "name": "heapStr",
+              "type": "String",
+              "value": "\"hello\"",
+              "objectId": "49"
+            },
+            "arr": {
+              "name": "arr",
+              "type": "int[]",
+              "value": "int[][3]",
+              "objectId": "50"
+            }
+          }
+        }
+      ],
+      "heap": {
+        "objects": [
+          {
+            "objectId": "39",
+            "className": "Main$Point",
+            "fields": {
+              "x": {
+                "name": "x",
+                "type": "int",
+                "value": "10",
+                "objectId": null
+              },
+              "y": {
+                "name": "y",
+                "type": "int",
+                "value": "20",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "41",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "49",
+            "className": "String",
+            "fields": {
+              "value": {
+                "name": "value",
+                "type": "String",
+                "value": "hello",
+                "objectId": null
+              }
+            },
+            "arrayElements": null,
+            "arrayLength": -1,
+            "isStringPoolEntry": false
+          },
+          {
+            "objectId": "50",
+            "className": "int[]",
+            "fields": {},
+            "arrayElements": [
+              "1",
+              "2",
+              "3"
+            ],
+            "arrayLength": 3,
+            "isStringPoolEntry": false
+          }
+        ],
+        "stringPool": []
+      },
+      "exception": null,
+      "narrative": "Allocated int[] of size 3 on the Heap at @50 and stored its reference on the main stack frame."
+    },
+    {
+      "stepIndex": 23,
+      "callDepth": 0,
+      "eventType": "VM_DEATH",
+      "location": null,
+      "callStack": [],
+      "heap": null,
+      "exception": null,
+      "narrative": "Program execution completed."
+    }
+  ],
+  "stdout": "factorial(3) = 6\nPoint: (10, 20)\npooled == heapStr? false\narr length = 3\n",
+  "stderr": "",
+  "timedOut": false,
+  "killed": false
+}

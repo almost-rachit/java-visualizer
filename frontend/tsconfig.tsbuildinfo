@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/debugconsole.tsx","./src/components/editorpane.tsx","./src/components/memorycanvas.tsx","./src/components/navbar.tsx","./src/components/pipelinebar.tsx","./src/components/toolbar.tsx","./src/constants/presets.ts","./src/services/api.ts","./src/types/jviz.ts"],"version":"5.9.3"}

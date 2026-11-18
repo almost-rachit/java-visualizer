@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.5.0'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.jviz'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+// Ensure JDI module is accessible at compile and runtime
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += ['--add-modules', 'jdk.jdi']
+}
+
+tasks.withType(JavaExec).configureEach {
+    jvmArgs += ['--add-modules', 'jdk.jdi']
+}
+
+tasks.named('bootRun') {
+    jvmArgs = ['--add-modules', 'jdk.jdi', '-Xms64m', '-Xmx220m', '-XX:+UseSerialGC']
+}
+
+bootJar {
+    archiveFileName = 'app.jar'
+}
+
+test {
+    useJUnitPlatform()
+    jvmArgs += ['--add-modules', 'jdk.jdi']
+}
